@@ -16,6 +16,8 @@ go in help and serach tenstng and install
 configurations selenium 
 --------------------------
 
+add dependencies in pom.xml file
+
 
 next 3 dependies req
 1. java

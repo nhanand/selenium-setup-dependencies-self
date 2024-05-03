@@ -1,0 +1,56 @@
+selenium
+
+-create a maven project
+-choose catalog as internal
+-maven_archtype_quickstart
+-group id com.simplilearn
+-artifact_id session1
+-enter
+project created
+
+next
+go in help and serach tenstng and install
+
+
+
+configurations selenium 
+--------------------------
+
+
+next 3 dependies req
+1. java
+2. web driver
+3. testng
+
+next
+download sselenium java maven dependencies
+
+
+<!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
+<dependency>
+    <groupId>org.seleniumhq.selenium</groupId>
+    <artifactId>selenium-java</artifactId>
+    <version>4.20.0</version>
+</dependency>
+
+
+next
+web driver dependency use maven repository site
+
+<dependency>
+    <groupId>io.github.bonigarcia</groupId>
+    <artifactId>webdrivermanager</artifactId>
+    <version>5.8.0</version>
+</dependency>
+
+next
+
+testing dependency use maven repository site
+
+<dependency>
+    <groupId>org.testng</groupId>
+    <artifactId>testng</artifactId>
+    <version>7.10.2</version>
+    <scope>test</scope>
+</dependency>
+

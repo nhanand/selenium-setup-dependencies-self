@@ -159,20 +159,32 @@ frequently used
 
 
 Ancestor following preceding following-sibling preceding-sibling parent
+                  ======================================================
 
 css selectors
 -------------
 
 operators used in css selector
 
-. dot operator                used in classes
-# hash operator               used in id
-* contains                    -contains methods
+1.   . dot operator                used in classes
+
+vvi-	class name is inputtext _55r1 _6luy
+ - to use class as cssselctor add .(dot). if there is spacing the that also is joined by adding . in between
+
+               ------------------------------------------------------------------
+               - so css selector by class name would be  .inputtext._55r1._6luy -
+               ------------------------------------------------------------------
+
+2.           # hash operator               used in id
+
+3.           * contains                    -contains methods
                               - matches some part of a string
-^ starts-with                 -starts with method
-                              -starting of the string 
-$end with                     -end with method
-                              - matches ending text
+
+4.           ^ starts-with                 -starts with method
+                                           -starting of the string 
+
+5.                $end with                -end with method
+                                           - matches ending text
 
 ===========================================================================================
                              

@@ -11,12 +11,10 @@ project created
 next
 go in help and serach tenstng and install
 
-
+================================================================================================
 
 configurations selenium 
 --------------------------
-
-add dependencies in pom.xml file
 
 
 next 3 dependies req
@@ -55,4 +53,136 @@ testing dependency use maven repository site
     <version>7.10.2</version>
     <scope>test</scope>
 </dependency>
+
+next
+
+=========================================================================================
+lession 2
+
+browsers commands
+------------------
+
+get() 
+- navigates to the url
+
+get_Title()
+- returns the title of the web page
+
+getCUrrentUrl()
+- returns the url of the web page of the currently active window
+
+getPageSoure()
+
+close()
+
+quit()
+
+findElement
+FindELEMENTS
+
+---------------------------------------------------------------------
+
+NAVIGATION COMMAND
+
+driver.navigate().to("url")
+driver.navigate().forward()
+driver.navigate().back()
+driver.navigate().refresh()
+
+---------------------------------------------------------------------
+
+web element commands
+--------------------
+
+element.clear()    - clear the text field
+element.sendkeys() - passing something to string element 
+
+element.click()
+element.isEnabled()
+
+validation method
+
+element.isDisplayed()
+element.isSelected()
+
+
+in form 
+
+element.submit()
+element.getAttribute()
+
+=======================================================================
+lession3
+
+locators or identifiers
+-----------------------
+
+type 8
+
+id 
+name
+classname
+tagname
+cssselector
+linktext
+partial linktext
+xpath 
+
+
+locating element
+-----------------
+
+findelement
+findelements
+
+======================================================================================
+lession 4 
+---------
+
+xpath
+
+xpath is a kind of programmimg language
+type 
+- absolute and relative // relative is faster
+- methods using xpath
+  1. text
+2. contains
+3. startswith
+
+operators 
+
+and or
+
+axes in xpath
+
+frequently used
+
+
+Ancestor following preceding following-sibling preceding-sibling parent
+
+css selectors
+-------------
+
+operators used in css selector
+
+. dot operator                used in classes
+# hash operator               used in id
+* contains                    -contains methods
+                              - matches some part of a string
+^ starts-with                 -starts with method
+                              -starting of the string 
+$end with                     -end with method
+                              - matches ending text
+
+===========================================================================================
+                             
+
+
+
+
+
+
+
+
+
 

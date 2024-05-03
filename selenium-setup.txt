@@ -9,7 +9,7 @@ selenium
 project created
 
 next
-go in help and serach tenstng and install
+go in help and search testng and install
 
 ================================================================================================
 
